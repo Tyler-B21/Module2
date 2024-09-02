@@ -22,12 +22,12 @@ while lname != "ZZZ":
     gpa = float(input("Enter GPA as a float:"))
 
     #Test inputs and output results
-    if gpa > 3.25:
+    if gpa >= 3.25:
         print(fname + " " + lname + " made the Dean's List!")
     elif gpa < 3.25:
         print(fname + " " + lname + " did not make the Dean's List or Honor's Roll")
     else:
         print("Error.")
-    if gpa > 3.5:
+    if gpa >= 3.5:
         print(fname + " " + lname + " made the Honor's Roll!")
 #While loop End

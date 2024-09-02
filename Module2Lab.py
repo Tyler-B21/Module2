@@ -23,11 +23,11 @@ while lname != "ZZZ":
 
     #Test inputs and output results
     if gpa >= 3.25:
-        print(fname + " " + lname + " made the Dean's List!")
+        print(fname + " " + lname + " made Honor Roll!")
     elif gpa < 3.25:
         print(fname + " " + lname + " did not make the Dean's List or Honor's Roll")
     else:
         print("Error.")
     if gpa >= 3.5:
-        print(fname + " " + lname + " made the Honor's Roll!")
+        print(fname + " " + lname + " made the Dean's List!")
 #While loop End
